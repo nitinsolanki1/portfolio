@@ -1,0 +1,78 @@
+.app{
+    height: 100%;
+    width: 100%;
+    background-color: #292D32;
+    overflow-x: hidden;
+}
+/* 292D32 */
+.light_app{
+    background-color: #E4EBF1;
+}
+
+
+.page{
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    color: white;
+}
+.title{
+    text-shadow: 1px 0px 2px white, 0px 2px 2px #ffc107;
+}
+/* .light_card{
+    box-shadow:15px 2px 17px -3px #000000b5;
+  box-shadow:7px 9px 9px 0px #131415;
+
+}
+
+.dark_card{
+  box-shadow:7px 9px 9px 0px #131415;
+} */
+ .card{
+    transition: 0.2s;
+ }
+.dark_card:hover{
+  box-shadow:7px 9px 9px 0px #131415;
+
+}
+.light_card:hover{
+    box-shadow:7px 9px 9px 0px #131415;
+  
+  }
+.cursor{
+    height: 0px;
+    width: 0px;
+    background: white;
+    mix-blend-mode: difference;
+    position: absolute;
+    opacity: 1;
+    border-radius: 50%;
+    z-index: 99;
+}
+
+
+.page1{
+    z-index: 99;
+}
+.taps{
+    width: 110vw;
+    position: relative;
+    height: 100px;
+    background-color: greenyellow;
+    transform: rotate(-8deg);
+    top: -20%;
+    overflow: hidden;
+    left: -2%;
+}
+.tap{
+    width: 200%;
+    height: 72%;
+    margin: 1%;
+    background-color: green;
+    position: relative;
+    right: 2%;
+}
+
+.home_title{
+    line-height: 28px;
+}

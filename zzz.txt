@@ -1,0 +1,4 @@
+1. home page
+2. contact page
+3. project page
+4. about page 
