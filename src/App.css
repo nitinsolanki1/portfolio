@@ -4,30 +4,22 @@
     background-color: #292D32;
     overflow-x: hidden;
 }
-/* 292D32 */
-.light_app{
-    background-color: #E4EBF1;
-}
 
+body{
+    width: 100%;
+    overflow-x: hidden  ;
+}
 
 .page{
     min-height: 100vh;
-    width: 100%;
+    width: 99%;
     overflow-x: hidden;
     color: white;
 }
 .title{
     text-shadow: 1px 0px 2px white, 0px 2px 2px #ffc107;
 }
-/* .light_card{
-    box-shadow:15px 2px 17px -3px #000000b5;
-  box-shadow:7px 9px 9px 0px #131415;
 
-}
-
-.dark_card{
-  box-shadow:7px 9px 9px 0px #131415;
-} */
  .card{
     transition: 0.2s;
  }
@@ -42,37 +34,84 @@
 .cursor{
     height: 0px;
     width: 0px;
-    background: white;
+    /* background: red; */
     mix-blend-mode: difference;
     position: absolute;
     opacity: 1;
     border-radius: 50%;
-    z-index: 99;
+}
+.home-content{
+    /* z-index: 9; */
+    position: absolute;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    z-index: 20;
+    width: 100%;
+    /* background-color: rgba(102, 51, 153, 0.326); */
+    
+}
+
+.back-image{
+    background: url(../../public/back2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    filter: opacity(0.2);
+    z-index: 0;
+}
+.card-img-top{
+    min-height: 44%;
+    border-radius: 8px;
 }
 
 
 .page1{
-    z-index: 99;
-}
-.taps{
-    width: 110vw;
     position: relative;
-    height: 100px;
-    background-color: greenyellow;
-    transform: rotate(-8deg);
-    top: -20%;
-    overflow: hidden;
-    left: -2%;
+    z-index: 9;
 }
-.tap{
-    width: 200%;
-    height: 72%;
-    margin: 1%;
-    background-color: green;
-    position: relative;
-    right: 2%;
-}
-
 .home_title{
     line-height: 28px;
+}
+
+
+.circle{
+    height: 400px;
+    width: 400px;
+    /* background:linear-gradient(45deg,rgba(140, 92, 92, 0.334),rgb(88, 159, 88)); */
+    position: absolute;
+    /* z-index: 100; */
+    
+    border-radius: 50%;
+    background-color: red;
+   
+}
+.circle > div{
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+}
+.box1{
+    top: 0px;
+    left: 0px;
+    
+}
+.box2{
+    top: 0px;
+    left: 90%;
+    
+}
+.box3{
+    top: 90%;
+    left: 90%;
+    
+}
+.box4{
+    top: 90%;
+    left: 0px;
+    
 }

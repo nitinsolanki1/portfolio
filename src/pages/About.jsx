@@ -59,7 +59,7 @@ import { useRef } from "react"
       <div className="cursor"></div>
     <Header current={1} md={md} setmd={setmd}/>
 
-        <div className="conten container d-flex justift-content-center align-items-center flex-columns"> 
+        <div className="conten container  d-flex justift-content-center align-items-center flex-columns"> 
         
           <div className="about ">
             
