@@ -16,7 +16,7 @@ const  handelMode = ()=>{
   }
   return (
   
-  <nav className={`navbar mb-4 navbar-expand-lg  bg-dark`} style={{borderBottom :  md.border}}>
+  <nav className={`navbar mb-4 navbar-expand-lg  bg-transparent`} style={{borderBottom :  md.border}}>
   <div className="container-fluid">
     <Link className="navbar-brand text-warning fs-3" to="/">NITIN SOLANKI</Link>
     <button className={`navbar-toggler`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
